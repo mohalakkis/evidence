@@ -1,0 +1,107 @@
+
+body {
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+.test {
+    width: 75%;
+    margin: 0 auto;
+    
+}
+.moha{
+    padding: 1%;
+}
+
+.test2 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.test3 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.color {
+    color: white;
+}
+
+.footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.scrollspySite{
+    position: relative;
+    overflow: auto;
+    height: 380px;
+}
+.mohamed{
+    margin: 0 auto;
+    
+}
+.icon{
+    background-color: #ddd;
+    border-radius: 100%;
+    height: 190px;
+    object-fit: cover;
+    max-width:70px;
+    max-height:140px;
+    height: auto;
+}
+.img{
+    width: 1%;
+}
+.cor{
+    color: black;   
+}
+@media screen and (max-width: 800px) { /*Celular*/
+    .test2 {
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+    .icon2{
+        display: show;
+    }
+    .test3 {
+        display: show;
+        width: 100%;
+        height: 100%;
+    }
+    .test{
+        width: 100%;
+    }
+    .desgruda{
+        padding: 2%;
+    }
+    .desk{
+        display: none;
+        
+    }
+    .celular{
+        display: show;
+    }
+    
+}
+
+@media screen and (min-width: 800px) {
+    .test3 {
+        display: none;
+    }
+    .icon2{
+        display: none;
+    }
+    .desk{
+        display: show;
+    }
+    .celular{
+        display: none;
+    }
+   
+}
+
+
